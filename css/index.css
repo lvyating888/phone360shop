@@ -1,0 +1,573 @@
+	body{
+		background: #f4f4f4;
+	}
+	.swiper-container {
+        width:100%;
+		max-width:640px;
+		background: #fff; 
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide a img{
+        display: block;
+       /* background: url("../img/banner1.png") center center;*/
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+/*banner框架样式*/
+
+
+.ggbox{
+	background: #474747;
+    display: block;
+    height: 42px;
+    position: relative;
+}
+.closebtn{
+	height: 42px;
+    line-height: 42px;
+    text-align: center;
+    width: 37px;
+    float: left;
+}
+.closebtn img{
+	height: 13px;
+    overflow: hidden;
+    width: 13px;
+}
+.ggcontent{
+	width: 80%;
+    display: block;
+    overflow: hidden;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+}
+.ggcontent span{
+    float: left;
+
+}
+.gglogo{
+	height: 42px;
+    line-height: 42px;
+}
+.gglogo img {
+    height: 35px;
+    margin-top: 4px;
+    overflow: hidden;
+    width: 35px;
+}
+.gginner{
+    color: #fff;
+    margin: 5px 0 0 8px;
+}
+.ggcontent .ggname{
+	font-size: 14px;
+	line-height: 17px;
+}
+.ggcontent .ggxushu{
+	font-size: 12px;
+	line-height: 15px;
+}
+
+/*ggend*/
+
+.nav{
+	background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.nav a{
+    color: #666;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    float: left;
+}
+.nav a img {
+    border-radius: 30px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
+.nav a span {
+    display: block;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+/*nav end*/
+
+.first-news {
+    background: #fff;
+    padding: 12px 15px;
+}
+.firstleft{
+	border-right: 1px solid #e1e1e1;
+    float: left;
+    font-size: 12px;
+    height: 16px;
+    padding-right: 5px;
+}
+.firstleft img{
+	font-size: 12px;
+    height: 16px;
+    overflow: hidden;
+    width: 63px;
+}
+.firsttext{
+	height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.tuijian {
+    color: #f66;
+    float: left;
+    font-style: normal;
+    padding: 0 5px;
+ }
+.firsttext a {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    color:#666;
+}
+.firsttext a span{
+	font-size: 13px;
+}
+
+/*first-news end*/
+
+.qiang{
+	background: #fff;
+    margin-top: 10px;
+}
+.qtitle{
+	border-bottom: 1px solid #eaeaea;
+    clear: both;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    position: relative;
+}
+.qtitle .qred{
+	color: #f55;
+    display: inline-block;
+    font-size: 15px;
+}
+.qtime{
+	color: #222;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.qtime i{
+    border: 1px solid #aaa;
+    font-style: normal;
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 0 3px;
+}
+.qcontent{
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.qcontentbox{
+	width: 100%;
+}
+
+.qtext1{
+    height: 100%;
+    position: relative;
+    width:33.333333%;
+    float: left;
+}
+.plist {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.plist li {
+    margin: 10px 0;
+    padding: 0;
+    width: auto;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+
+}
+.plist li a{
+	display: block;
+}
+.plist li .pimg {
+    margin: 0 5px;
+}
+.plist li .pimg img {
+    height: 95px;
+    width: 95px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.plist li .p-title {
+    margin: 5px 5px 0;
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.plist li .p-price {
+    margin: 5px 5px 0;
+    color: #f55;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+.yuan-price {
+    color: #aaa;
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+
+/*qiang end*/
+
+.startitle{
+	color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.startitle i {
+    color: #ccc;
+    font-style: normal;
+}
+.starul{
+	background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+.starul li {
+    border-right: 1px solid #f1f1f1;
+    padding: 15px 0 7px;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.starul li:nth-child(2) {
+    border-right: none;
+}
+
+.starultitle{
+	border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 4px 9px 4px 5px;
+    vertical-align: middle;
+}
+.starultitle em {
+    color: #222;
+    float: left;
+    font-style: normal;
+    font-size: 13px;
+    height: 17px;
+    line-height: 17px;
+    margin-left: 5px;
+}
+.starultitle img {
+    float: left;
+    height: 17px;
+    overflow: hidden;
+    width: 17px;
+}
+.starimg {
+    display: block;
+    margin: 7px 10px 0;
+    position: relative;
+    text-align: center;
+}
+.starimg img {
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 150px;
+}
+.stitle {
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sprice {
+    color: #f55;
+    display: block;
+    font-size: 14px;
+    margin: 5px 8px 0;
+    text-align: center;
+}
+.sprice b{
+	font-size: 11px;
+}
+
+/*starproduct end*/
+
+.newproduct{
+	clear: both;
+    width: 100%;
+}
+.newproduct li a{
+    background: #fff;
+    margin-bottom: 10px;
+    display: block;
+}
+.newproduct li a:last-child {
+    margin-bottom: 0;
+}
+.newproduct li a span {
+    display: block;
+    position: relative;
+}
+.newname{
+	color: #222;
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.newsushu{
+	color: #999;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 6px;
+    overflow: hidden;
+    padding-bottom: 14px;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.newproduct li a span .price{
+    background: rgba(0,0,0,0.4);
+    bottom: 20px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    height: 27px;
+    line-height: 27px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 54px;
+}
+.newproduct li a span img {
+    height: auto;
+    width: 100%;
+}
+/*newproduct end*/
+.mian-bigimg {
+    clear: both;
+}
+.mian-bigimg img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.mainlist .maintitle{
+	text-align: left;
+}
+.mainxushu{
+	color: #999;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+.mainlist .sprice{
+	text-align: left;
+}
+/*main end*/
+
+.more{
+	background: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.bottom{
+	background: #fff;
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 3em;
+    text-align: center;
+    overflow: hidden;
+}
+.bottom .inner{
+	padding: 13px 0;
+	 overflow: hidden;
+}
+.b1{
+	border-right: solid 1px #d6d6d6;
+    color: #666;
+    font-size: 11px;
+    float: left;
+    width: 33.333333%;
+    box-sizing:border-box;
+
+}
+.b1 i{
+    border: 1px solid #aaa;
+    border-radius: 50px;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 31px;
+    margin: 0 auto;
+    width: 31px;
+     font-style: normal;
+        font-size:12px;
+
+}
+
+.b1 em {
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 7px;
+    font-style: normal;
+       font-size:12px;
+}
+.bottom .b1:last-child {
+    border-right: none;
+}
+.dizi{
+	border-top: solid 1px #d6d6d6;
+    font-size: 10px;
+    line-height: 37px;
+    color: #999;
+}
+.dizi p{
+	font-size: 10px;
+}
+.dizi p a{
+	color: #999;
+	font-size: 10px;
+}
+.dizi2{
+	font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+/*bottom end*/
+
+.daohang1{
+	background: #fff;
+    height: 53px;
+    left: 0;
+    padding: 0;
+    width: 100%;
+}
+.daohang{
+	background: #fff;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    bottom: 0;
+    height: 53px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+}
+.daohang ul li {
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.em1{
+	background: url(../img/di1.png) no-repeat;
+    background-size: 50px 33px;
+    
+}
+.em2{
+	background: url(../img/di2.png) no-repeat;
+    background-size: 50px 33px;
+}
+.em3{
+	background: url(../img/di3.png) no-repeat;
+    background-size: 50px 33px;
+}
+.em4{
+	background: url(../img/di4.png) no-repeat;
+    background-size: 50px 33px;
+}
+.daohang ul li em{
+	display: block;
+    height: 33px;
+    margin: 0 auto;
+    width: 50px;
+    font-style: normal;
+}
+.daohang ul li span.lv{
+	color: #19a243;
+}
+.daohang ul li span{
+	color: #555;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
